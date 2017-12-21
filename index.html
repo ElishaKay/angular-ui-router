@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="//unpkg.com/angular@1.6.1/angular.js"></script>
+    <script src="//unpkg.com/angular-ui-router@1.0.0-rc.1/release/angular-ui-router.js"></script>
+    <script src="script.js"></script>
+    <style>
+      a.deactivated {
+        color: lightgrey;
+      }
+      li.userselected {
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+
+  <body ng-app="app">
+    <ui-view></ui-view>
+  </body>
+
+</html>
